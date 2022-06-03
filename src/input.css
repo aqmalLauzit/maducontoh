@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter',sans-serif;
+}
+
+.navbar-fixed {
+    @apply fixed z-[9999] bg-white bg-opacity-70;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.2);
+}
+
+.hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-dark
+}
+
+.hamburger-active > span:nth-child(1) {
+    @apply rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+}
+
+.hamburger-active > span:nth-child(3) {
+    @apply origin-bottom-left -rotate-45;
+}
+
+.bulat{
+    counter-reset: list-counter;
+    list-style: none;
+    float:left;
+}
+.bulat li{
+    margin: 1.5em 0;    
+}
+.bulat li:before{
+    @apply text-slate-100;
+    content: "✔";
+    width: 3.5em;
+    height: 3.5em;
+    padding: .5em;
+    margin-right: 1em;
+    border-radius: 50%;
+    border: .50em solid #ccc;
+    background: #78350f;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.produkImage {
+    @apply sm:mx-auto sm:h-[360px] sm:w-auto md:max-h-[240px] md:w-auto lg:w-auto md:mx-auto lg:mx-auto
+}
+
+.produkWrapper {
+    @apply mb-12 p-4 md:w-1/2 lg:w-1/3
+}

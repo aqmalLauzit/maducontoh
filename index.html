@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="dist/img/logo.png">
+    <title>HANA'S HIVE</title>
+</head>
+<body>
+    <!-- header start -->
+        <header class="bg-trasparent absolute top-0 left-0 w-full flex items-center z-10">
+            <div class="container">
+                <div class="flex items-center justify-between relative">
+                    <div class="px-4">
+                        <a href="#home" class="font-bold text-lg text-primary block py-6">HANA'S HIVE</a>
+                    </div>
+                    <div class="flex items-center px-4">
+                        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                            <span class="hamburger-line duration-300 ease-in-out origin-top-left"></span>
+                            <span class="hamburger-line duration-300 ease-in-out"></span>
+                            <span class="hamburger-line duration-300 ease-in-out origin-top-left"></span>
+                        </button>
+
+                        <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full pl-3 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none rounded-none">
+                            <ul class="block lg:flex">
+                                <li class="group">
+                                    <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang HANA'S HIVE</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#more" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Keunggulan</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#foto" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Foto Produk</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#cara" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Cara Pesan!</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+    <!-- header end -->
+
+    <!-- Hero section start -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary">HANA'S HIVE 🍯, <span class="block font-bold text-dark md:text-xl">Madu Hutan murni</span></h1>
+                    <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">PURE | HEATLY | LOCAL</h2>
+                    <p class="font-medium text-secondary mb-10 leading-relaxed">Di panen langsung dari hutan di <span class="text-dark font-bold">Garut, Jawa Barat</span></p>
+
+                    <a href="https://api.whatsapp.com/send?phone=6281322522708" class="bg-primary text-white font-bold py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out" >Order Sekarang!</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-0 lg:right-0">
+                        
+                        <img src="dist/img/honeycomb-307936_960_720.webp" class="scale-100" data-aos="fade-in">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 ">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-primary text-lg mb-3">HANA'S HIVE</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Mari, hidup sehat! bersama madu hutan asli HANA'S HIVE</h2>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Madu hutan atau madu mentah telah lama digunakan sebagai pengobatan tradisional. Bahan alami dan rasa manis dari madu hutan mengandung unsur yang sehat yang tidak dimiliki oleh madu olahan. Madu hutan memberikan berbagai manfaat kesehatan.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="font-semibold text-dark text-2xl mb-4 lg:x-3xl lg:pt-10">Kenapa Pilih HANA'S HIVE</h3>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Madu dari Hana's Hive adalah madu murni yang di panen langsung dari hutan di Garut, Jawa Barat.</p>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Madu dari Hana's Hive menggunakan kemasan botol kaca yang bisa di gunakan semula sebagai botol minum setelah madu habis sehingga mengurangi limbah.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <svg id="more" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f1f5f9" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z" ></path></svg>
+    </section>
+    <!-- About section end -->
+
+    <!-- About More Product -->
+    <section class="pt-10 bg-slate-100" >
+        <div class="container" data-aos="fade-up">
+            <div class="w-full px-4">
+
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h2 class="font-semibold text-primary text-lg mb-2 lg:text-2xl">Keunggulan Produk HANA'S HIVE</h2>
+                    <p class="font-medium text-md text-secondary">Kualitas produk HANA'S HIVE kami jaga dari produksi bahkan sampai ke tangan konsumen agar kebaikan zat zat madu terjaga.</p>
+                </div>
+            </div>
+
+            <div class="px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-2 w-full lg:w-1/2" data-aos-duration="1000" data-aos="fade-in">
+                    <div class="rounded-full overflow-hidden border-8 md:h-auto lg:h-96">
+                        <img src="dist/img/hexa.webp" alt="madu" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 text-center">
+                        Madu ✔
+                    </h3>
+                    
+                    <div class="w-full mb-2 mt-2 flex flex-wrap box-border ">
+                        
+                        <div class="rounded-full  text-slate-100 text-xl w-[3em] inline-block h-[3em] bg-dark border-[.50em] border-[#ccc] p-[.3em] text-center">
+                            ✔
+                        </div>
+                        <div class="mt-5 mb-2 ml-2">
+                            <p class="font-medium text-md text-secondary text-[13px] md:text-lg">Madu mentah murni</p>
+                        </div>
+                    </div>
+
+                    <div class="w-full mb-2 mt-2 flex flex-wrap box-border">
+                        <div class="rounded-full  text-slate-100 text-xl w-[3em] inline-block h-[3em] bg-dark border-[.50em] border-[#ccc] p-[.3em] text-center">
+                            ✔
+                        </div>
+                        <div class="mt-5 mb-0 ml-2">
+                            <p class="font-medium text-md text-secondary text-[13px] md:text-lg">Tanpa Gula dan pemanis tambahan</p>
+                        </div>
+                    </div>
+
+                    <div class="w-full mb-2 mt-2 flex flex-wrap box-border">
+                        <div class="rounded-full  text-slate-100 text-xl w-[3em] inline-block h-[3em] bg-dark border-[.50em] border-[#ccc] p-[.3em] text-center">
+                            ✔
+                        </div>
+                        <div class="mt-5 mb-2 ml-2">
+                            <p class="font-medium text-md text-secondary text-[13px] md:text-lg">Tidak ada proses tambahan</p>
+                        </div>
+                    </div>
+
+                    <div class="w-full mb-2 mt-2 flex flex-wrap box-border">
+                        <div class="rounded-full  text-slate-100 text-xl w-[3em] inline-block h-[3em] bg-dark border-[.50em] border-[#ccc] p-[.3em] text-center">
+                            ✔
+                        </div>
+                        <div class="mt-5 mb-2 ml-2">
+                            <p class="font-medium text-md text-secondary text-[13px] md:text-lg">Aman untuk penderita diabetes</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="mb-12 p-2 w-full lg:w-1/2" data-aos="fade-in" data-aos-duration="1000">
+                    <div class="rounded-full overflow-hidden lg:h-96 border-8">
+                        <img src="dist/img/botol - Copy.png" alt="madu" width="w-full" class="mx-auto">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3 text-center">
+                        Kemasan Kaca ✔
+                    </h3>
+                    
+                    <div class="w-full mb-2 mt-2 flex flex-wrap box-border">
+                        
+                        <div class="rounded-full  text-slate-100 text-xl w-[3em] inline-block h-[3em] bg-dark border-[.50em] border-[#ccc] p-[.3em] text-center">
+                            ✔
+                        </div>
+                        <div class="mt-5 mb-2 ml-2">
+                            <p class="font-medium text-md text-secondary text-[13px] md:text-lg">Bisa di gunakan kembali</p>
+                        </div>
+                    </div>
+
+                    <div class="w-full mb-2 mt-2 flex flex-wrap box-border">
+                        <div class="rounded-full  text-slate-100 text-xl w-[3em] inline-block h-[3em] bg-dark border-[.50em] border-[#ccc] p-[.3em] text-center">
+                            ✔
+                        </div>
+                        <div class="mt-5 mb-0 ml-2">
+                            <p class="font-medium text-md text-secondary text-[13px] md:text-lg">Menjaga keaslian rasa</p>
+                        </div>
+                    </div>
+
+                    <div class="w-full mb-2 mt-2 flex flex-wrap box-border">
+                        <div class="rounded-full  text-slate-100 text-xl w-[3em] inline-block h-[3em] bg-dark border-[.50em] border-[#ccc] p-[.3em] text-center">
+                            ✔
+                        </div>
+                        <div class="mt-5 mb-2 ml-2">
+                            <p class="font-medium text-md text-secondary text-[13px] md:text-lg">Menjaga kandungan zat madu</p>
+                        </div>
+                    </div>
+
+                    <div class="w-full mb-2 mt-2 flex flex-wrap box-border">
+                        <div class="rounded-full  text-slate-100 text-xl w-[3em] inline-block h-[3em] bg-dark border-[.50em] border-[#ccc] p-[.3em] text-center">
+                            ✔
+                        </div>
+                        <div class="mt-5 mb-2 ml-2">
+                            <p class="font-medium text-md text-secondary text-[13px] md:text-lg">Mengurangi limbah plastik</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <svg id="foto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,0L30,10.7C60,21,120,43,180,74.7C240,107,300,149,360,149.3C420,149,480,107,540,80C600,53,660,43,720,42.7C780,43,840,53,900,69.3C960,85,1020,107,1080,117.3C1140,128,1200,128,1260,106.7C1320,85,1380,43,1410,21.3L1440,0L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    </section>
+    <!-- about more product end -->
+
+    <!-- foto produk start -->
+        <section>
+            <div class="container" data-aos="fade-up">
+                <div class="w-full px-4">
+                    <div class="max-w-xl mx-auto text-center mb-16">
+                        <h2 class="font-semibold text-lg text-primary">Foto Produk</h2>
+                        <h4 class="font-bold text-dark text-3xl mb-2">Kumpulan foto produk HANA'S HIVE</h4>
+                        <p class="font-medium text-secondary">Kumpulan foto dan implementasi.</p>
+                    </div>
+                </div>
+
+                <div class="w-full px-4 flex flex-wrap justify-center">
+                    
+                    <div class="produkWrapper" data-aos="fade-right" data-aos-duration="500" data-aos-delay="30">
+                        <div class="rounded-md shadow-md overflow-hidden">
+                            <img src="dist/img/fotoproduk.jpeg" alt="fotomadu" class="produkImage">
+                        </div>
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Foto Produk dan packing</h3>
+                        <p class="font-medium text-base text-secondary">Madu, kami packing dengan bubble wrap sehingga siap di kirim ke mana pun!.</p>
+                    </div>
+
+                    <div class="produkWrapper" data-aos="fade-up" data-aos-duration="500" data-aos-delay="30">
+                        <div class="rounded-md shadow-md overflow-hidden">
+                            <img src="dist/img/fotoproduk2.jpeg" alt="fotomadu" class="produkImage">
+                        </div>
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Kemasan botol sehingga </h3>
+                        <p class="font-medium text-base text-secondary">Kemasan simpel sehingga bisa menjadi botol minum jika madu habis</p>
+                    </div>
+
+                    <div class="produkWrapper" data-aos="fade-right" data-aos-duration="500" data-aos-delay="30">
+                        <div class="rounded-md shadow-md overflow-hidden">
+                            <img src="dist/img/fotoproduk3.jpeg" alt="fotomadu" class="produkImage">
+                        </div>
+                        <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Teman santai minum teh</h3>
+                        <p class="font-medium text-base text-secondary">Ganti gula pada teh anda untuk menjaga </p>
+                    </div>
+
+                   
+
+              
+
+                </div>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f1f5f9" fill-opacity="1" d="M0,0L21.8,32C43.6,64,87,128,131,144C174.5,160,218,128,262,133.3C305.5,139,349,181,393,181.3C436.4,181,480,139,524,101.3C567.3,64,611,32,655,58.7C698.2,85,742,171,785,176C829.1,181,873,107,916,64C960,21,1004,11,1047,53.3C1090.9,96,1135,192,1178,240C1221.8,288,1265,288,1309,272C1352.7,256,1396,224,1418,208L1440,192L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z" id="cara"></path></svg>
+        </section>
+    <!-- foto produk end -->
+
+    <section class="bg-slate-100 pb-20">
+        <div class="container" data-aos="fade-in" data-aos-duration="1000">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center">
+                    <h2 class="font-semibold text-primary text-lg mb-2 lg:text-2xl">Cara pesan</h2>
+                    <img src="dist/img/howto.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark pt-24 pb-12">
+        <div class="container" >
+            <div class="flex flex-wrap" >
+                <div class="w-full px-4 mb-12 text-slate-300 md:w-1/2">
+                    <h2 class="font-bold text-4xl mb-5 text-white">HANA'S HIVE</h2>
+                    <h3>Hubungi Kami di whatsapp</h3>
+                    <a href="https://api.whatsapp.com/send?phone=6281322522708" class="hover:text-primary ">089671542728</a>
+                </div>
+
+                <div class="w-full px-4 mb-12 text-slate-300 md:w-1/2">
+                    <h2 class="font-bold text-4xl mb-5 text-white">Tautan</h2>
+                    <ul class="text-slate-300">
+                        <li><a href="#home" class="inline-block text-base hover:text-primary mb-3">Beranda</a></li>
+
+                        <li><a href="#about" class="inline-block text-base hover:text-primary mb-3">Tentang HANA'S HIVE</a></li>
+
+                        <li><a href="#more" class="inline-block text-base hover:text-primary mb-3">Keunggulan</a></li>
+
+                        <li><a href="#foto" class="inline-block text-base hover:text-primary mb-3">Foto Produk</a></li>
+
+                        <li><a href="#cara" class="inline-block text-base hover:text-primary mb-3">Cara Pesan!</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="w-full pt-10 border-t border-amber-800 text-center text-white">
+                Copyright &copy; 2022
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="dist/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          once: true
+      });
+    </script>
+</body>
+</html>
